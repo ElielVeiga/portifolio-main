@@ -200,10 +200,47 @@ aside img{
     width: 45px;
 }
 
-footer{
+#footer_id{
     width: 100vw;
     height: 30vh;
     background-color: #929292;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+
+.buttom_footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:0.5rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #fff;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.area_buttons img{
+    filter: invert(100%);
+}
+
+.area_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.buttom_github:hover{
+    background-color: #383838;
+}
+
+.buttom_linkedin:hover{
+    background-color: #0059ff;
+
 }
 
 body::-webkit-scrollbar {
@@ -215,3 +252,24 @@ body::-webkit-scrollbar {
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid transparent;  /* creates padding around scroll thumb */
   }
+
+  /* 
+#ff0000
+#e30000
+#89006b
+#320059
+#2c1028 
+*/
+
+/*
+
+#FFFFFF
+#00A7E1
+#00171F
+#003459
+#007EA7
+*/
+
+/*
+
+*/
