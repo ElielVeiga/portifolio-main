@@ -26,8 +26,9 @@ nav{
     height: 40vh;
     background-color: #dadada;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 15rem;
 }
 
 #paragraf_id{
@@ -48,6 +49,7 @@ table{
     border-radius: 1rem;
     padding: 0.5rem;
     width: 20rem;
+    background-color: #fff;
 }
 
 table tr{
@@ -154,7 +156,9 @@ table td{
 
 #main_id{
     width: 100vw;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 #title{
@@ -165,8 +169,21 @@ table td{
 .area_projects{
     display: flex;
     width: 100vw;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 5rem;
+}
+
+.area_projects p{
+    width: 25vw;
+}
+
+.checkbus_img{
+    -webkit-box-shadow: -5px 2px 21px 3px rgba(0,0,0,0.46);
+-moz-box-shadow: -5px 2px 21px 3px rgba(0,0,0,0.46);
+box-shadow: -5px 2px 21px 3px rgba(0,0,0,0.46);
+
+    
 }
 
 #aside_id{
@@ -176,7 +193,7 @@ table td{
     justify-content: center;
     align-items: center;
     margin: 2rem 0rem 2rem 0rem;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 aside img{
