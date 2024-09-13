@@ -21,6 +21,8 @@ function colorOne(){
     body.body_id.backgroundColor="#2c1028";
     body.nav_id.backgroundColor = "#89006b"
     body.aside_id.backgroundColor = "#89006b"
+    body.header_id.backgroundColor = "#fff"
+    body.footer_id.backgroundColor = "#fff"
 
     fonts.paragraph.color = "#fff";
     fonts.description_projects_one.color = "#fff";
@@ -73,12 +75,29 @@ function size24(){
 
 function resetButtom(){
     const default_settings_body = document.getElementById("resetButtom").value="#fff";
+    const subBody = document.getElementById("resetButtom").value="#dadada";
     const default_settings_font = document.getElementById("resetButtom").value="medium";
+    const default_color_font = document.getElementById("resetButtom").value="#000";
 
+
+    body.nav_id.backgroundColor= subBody;
+    body.aside_id.backgroundColor= subBody;
     body.body_id.backgroundColor=default_settings_body;
-    fonts.paragraph.fontSize=default_settings_font;
-    fonts.description_projects_one.fontSize=default_settings_font;
-    fonts.description_projects_two.fontSize=default_settings_font;
-    fonts.description_projects_three.fontSize=default_settings_font;
+    fonts.paragraph={
+        color:default_color_font,
+        fontSize:default_settings_font,
+    }
+    fonts.description_projects_one={
+        color:default_color_font,
+        fontSize:default_settings_font,
+    };
+    fonts.description_projects_two={
+        color:default_color_font,
+        fontSize:default_settings_font,
+    };
+    fonts.description_projects_three={
+        color:default_color_font,
+        fontSize:default_settings_font,
+    };
 
 }
