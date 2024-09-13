@@ -87,7 +87,7 @@ function resetButtom(){
         color:default_color_font,
         fontSize:default_settings_font,
     }
-    fonts.description_projects_one={
+    fonts.description_projects_one.style={
         color:default_color_font,
         fontSize:default_settings_font,
     };
