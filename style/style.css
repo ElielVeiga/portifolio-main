@@ -174,7 +174,8 @@ table td{
     gap: 5rem;
 }
 
-.area_projects p{
+#description_projects_one, #description_projects_two, #description_projects_three{
+    font-size: medium;
     width: 25vw;
 }
 

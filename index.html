@@ -25,25 +25,21 @@
         <tr>
             <th class="th_color">COLOR</th>
             <th class="th_size">SIZE</th>
-            <th class="th_font">FONT</th>
         </tr>
         <tr>
             <td id="buttomone" onclick="colorOne()">red</td>
             <td  id="size14" onclick="size14()">14</td>
-            <td  id="fontWhite">white</td>
         </tr>
         <tr>
             <td id="buttomtwo" onclick="colorTwo()">blue</td>
             <td id="size18" onclick="size18()">18</td>
-            <td id="fontBlack">black</td>
         </tr>
         <tr>
             <td id="buttomthree" onclick="colorThree()">green</td>
             <td id="size24" onclick="size24()">24</td>
-            <td id="fontGreen">green</td>
         </tr>
         <tr>
-            <td colspan="3" id="resetButtom" onclick="resetButtom()">
+            <td colspan="2" id="resetButtom" onclick="resetButtom()">
                 <img src="assets/reset-svgrepo-com.svg" width="16px"/>
             </td>
         </tr>
@@ -53,7 +49,7 @@
       <h1 id="title">Projetos</h1>
       <div class="area_projects">
         <img src="assets/vimsa.png" width="650px"/>
-        <p>
+        <p id="description_projects_one">
           Este é o resultado final de um site desenvolvido por mim desde sua UX até o resultado final, 
           sua principal função é apresentar a empresa, exibir as linha e horarios auferidos pela empresa.
           Meu maior desafio foi desenvolver uma consulta em um banco de dados que retorna o valor restante
@@ -63,7 +59,7 @@
         </p>
       </div>
       <div class="area_projects">
-        <p>
+        <p id="description_projects_two">
           Sou um especialista em resolver problemas de maneiras eficazes usando tecnologia, precisava conferir
           datas de validades de varios laudos de homologação e isto era feito atraves de planilhas excel oque gerava
           uma demanda muito grande ja que o trabalho não admitia erros, então desenvolvi um sistema usando Expo, React Native e Firebase
@@ -74,7 +70,7 @@
       </div>
       <div class="area_projects">
         <img src="assets/aurora.png" width="650px"/>
-        <p>
+        <p id="description_projects_three">
           O resultado final da criação de um site para mostrar e solicitar orçamentos para serviços automotivos
           a ideia inicial era uma simples pagina com algumas imagens e um link de contato mas usei meus conhecimentos 
           em design de interfaces e em desenvolvimento ReactJS e CSS e não criei um simples site mas sim uma identidade visual que remete 

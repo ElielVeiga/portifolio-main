@@ -8,8 +8,10 @@ const body = {
    footer_id: document.getElementById("footer_id").style,
 }
 const fonts = {
-    paragraph : document.getElementById("paragraf_id").style
-
+    paragraph : document.getElementById("paragraf_id").style,
+    description_projects_one: document.getElementById("description_projects_one").style,
+    description_projects_two: document.getElementById("description_projects_two").style,
+    description_projects_three: document.getElementById("description_projects_three").style,
 }
 
 const bg_colors = {
@@ -39,16 +41,25 @@ function colorThree(){
 function size14(){
     const size = document.getElementById("size14").value=14+"px";
     fonts.paragraph.fontSize = size;
+    fonts.description_projects_one.fontSize = size;
+    fonts.description_projects_two.fontSize = size;
+    fonts.description_projects_three.fontSize = size;
 }
 
 function size18(){
     const size = document.getElementById("size14").value=18+"px";
     fonts.paragraph.fontSize = size;
+    fonts.description_projects_one.fontSize = size;
+    fonts.description_projects_two.fontSize = size;
+    fonts.description_projects_three.fontSize = size;
 }
 
 function size24(){
     const size = document.getElementById("size14").value=24+"px";
     fonts.paragraph.fontSize = size;
+    fonts.description_projects_one.fontSize = size;
+    fonts.description_projects_two.fontSize = size;
+    fonts.description_projects_three.fontSize = size;
 }
 
 
@@ -62,4 +73,8 @@ function resetButtom(){
 
     body.body_id.backgroundColor=default_settings_body;
     fonts.paragraph.fontSize=default_settings_font;
+    fonts.description_projects_one.fontSize=default_settings_font;
+    fonts.description_projects_two.fontSize=default_settings_font;
+    fonts.description_projects_three.fontSize=default_settings_font;
+
 }
