@@ -12,19 +12,23 @@ const fonts = {
     description_projects_one: document.getElementById("description_projects_one").style,
     description_projects_two: document.getElementById("description_projects_two").style,
     description_projects_three: document.getElementById("description_projects_three").style,
-}
-
-const bg_colors = {
-    color1: document.getElementById('buttomone').value="#fc3030",
-    color2: document.getElementById('buttomtwo').value="#0352e4",
-    color3: document.getElementById('buttomthree').value="#05b330",
-
+    title: document.getElementById("title").style
 }
 
 //BACKGOUNDS
 
 function colorOne(){
-    body.body_id.backgroundColor=bg_colors.color1;
+    body.body_id.backgroundColor="#2c1028";
+    body.nav_id.backgroundColor = "#89006b"
+    body.aside_id.backgroundColor = "#89006b"
+
+    fonts.paragraph.color = "#fff";
+    fonts.description_projects_one.color = "#fff";
+    fonts.description_projects_two.color = "#fff";
+    fonts.description_projects_three.color = "#fff";
+    fonts.title.color = "#fff";
+
+
 }
 
 function colorTwo(){
